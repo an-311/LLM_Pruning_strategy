@@ -36,6 +36,7 @@ import dataclasses as dc
 import json
 import random
 import time
+from judges.openai_judge import OpenAIJudge
 from typing import Any, Dict, Iterable, List, Tuple
 
 try:
